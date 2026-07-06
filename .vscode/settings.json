@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": false,
+    "files.autoSave": "off",
+    "editor.bracketPairColorization.enabled": false,
+
+    "editor.renderValidationDecorations": "on"
+}
