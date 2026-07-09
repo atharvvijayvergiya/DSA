@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int duplicates(int arr)
+
+int main(){
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[n];
+    }
+
+return 0;
+}
