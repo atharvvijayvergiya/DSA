@@ -4,4 +4,8 @@
     "editor.bracketPairColorization.enabled": false,
 
     "editor.renderValidationDecorations": "on"
+
+    "files.exclude": {
+        "**/*.exe": true
+    }
 }
