@@ -1,0 +1,9 @@
+# Windows executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Linux/Mac executables
+*.out
