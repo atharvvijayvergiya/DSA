@@ -29,6 +29,6 @@ int main(){
     for(auto i= st.begin(); i!=st.end();i++){
         cout<< *i<<" ";
     }
-    cout<<endl<<"the total number number of distinct elements are:"<<result;
+    cout<<<<endl<<"the total number number of distinct elements are:"<<result;
 return 0;
 }

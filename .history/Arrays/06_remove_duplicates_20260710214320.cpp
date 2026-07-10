@@ -27,8 +27,8 @@ int main(){
     }
     int result=st.size();
     for(auto i= st.begin(); i!=st.end();i++){
-        cout<< *i<<" ";
+        cout<< *i<<
     }
-    cout<<endl<<"the total number number of distinct elements are:"<<result;
+    cout<<result;
 return 0;
 }
