@@ -1,6 +1,0 @@
-// to find the largest element in an array
-#include<bits/stdc++.h>
-using namespace std;
-int main()
-{ int arr[] = [5,7,14,78,25]
-    
