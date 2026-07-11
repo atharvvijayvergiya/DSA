@@ -15,6 +15,7 @@ int main(){
     }
     int d;
     cin>>d;
+    d = d % n;
     leftrotate(arr,n,d);
 
     for(int i=0;i<n;i++){
