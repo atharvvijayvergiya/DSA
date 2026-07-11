@@ -5,7 +5,6 @@ void leftrotate(int arr[], int n, int d){
     reverse(arr+d,arr+n);
     reverse(arr,arr+n);
 }
-
 int main(){
     int n;
     cin>> n;
