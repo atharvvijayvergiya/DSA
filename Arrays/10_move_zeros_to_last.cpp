@@ -27,7 +27,7 @@ void remove_zeros_atend(int arr[], int n){
     }
 }
 int main(){
-    int n;
+    int n; 
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++){
