@@ -1,1 +1,2 @@
-3
+The first number is: 3 and,
+The second number is: 3
