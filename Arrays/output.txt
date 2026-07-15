@@ -1,2 +1,2 @@
-The first number is: 3 and,
-The second number is: 3
+The first index is: 3 and,
+The second index is: 4
