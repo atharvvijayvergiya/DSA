@@ -1,2 +1,5 @@
-The first index is: 3 and,
-The second index is: 4
+2
+0
+1
+0
+2
