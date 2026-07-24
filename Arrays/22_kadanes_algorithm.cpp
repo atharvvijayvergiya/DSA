@@ -9,6 +9,7 @@ int main(){
     }
 
     int maxSum = INT_MIN;
+    int sum = 0;
     //brute approach:
     // 
     // for(int i=0;i<n;i++){
@@ -22,12 +23,25 @@ int main(){
     // }
     // cout<<maxSum;
     
-    //better approach
+    // //better approach
+    // for(int i=0;i<n;i++){
+    //     int sum = 0;
+    //     for(int j=i;j<n;j++){
+    //         sum = sum +arr[j];
+    //         maxSum=max(maxSum,sum);
+    //     }
+    // }
+
+    //optimal solution:
     for(int i=0;i<n;i++){
-        int sum = 0;
-        for(int j=i;j<n;j++){
-            sum = sum +arr[j];
-            maxSum=max(maxSum,sum);
+        sum = sum + arr[i];
+    
+        if(sum > maxSum){
+            maxSum = sum;
+        }
+    
+        if(sum < 0){
+            sum = 0;
         }
     }
     cout<<maxSum;
