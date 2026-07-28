@@ -16,16 +16,18 @@ int main(){
         cin>>arr[i];
     }
     int longest =1;
-    for(int i=0;i<n;i++){
-            int x = arr[i];
-            int count=1;
+    //brute:
+    // for(int i=0;i<n;i++){
+    //         int x = arr[i];
+    //         int count=1;
 
-            while(linear_search(arr,n,x+1)==true){
-                x=x+1;
-                count++;
-            }
-            longest = max(longest,count);
-    }
+    //         while(linear_search(arr,n,x+1)==true){
+    //             x=x+1;
+    //             count++;
+    //         }
+    //         longest = max(longest,count);
+    // }
+    
     cout<<longest;
     return 0;
 }
