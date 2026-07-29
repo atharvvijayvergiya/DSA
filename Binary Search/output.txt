@@ -1,1 +1,2 @@
-The inserted position would be: 1
+The floor is: 28
+The ceiling is: 20
