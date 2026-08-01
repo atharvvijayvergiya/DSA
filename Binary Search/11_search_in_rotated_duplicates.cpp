@@ -6,7 +6,11 @@ int bsRotatedArray(int arr[], int n, int target){
     while(low<=high){
         int mid = (low+high)/2;
         if(arr[mid]==target){
-            return mid;
+            return true;
+        }
+        if(arr[low]==arr[mid] && arr[mid]==arr[high]){
+            low++,high--;
+            continue;
         }
         //left sorted
         else if(arr[low]<=arr[mid]){
@@ -26,7 +30,7 @@ int bsRotatedArray(int arr[], int n, int target){
             }
         }
     }
-    return -1;
+    return false;
 }
 int main(){
     int n;
@@ -37,7 +41,7 @@ int main(){
     }
     int target;
     cin>>target;
-    int ans = bsRotatedArray(arr,n,target);
+    bool ans = bsRotatedArray(arr,n,target);
     cout<<ans;
     return 0;
 }
