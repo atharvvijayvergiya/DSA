@@ -3,6 +3,7 @@ using namespace std;
 int singleSearch(int arr[] ,int n){
     int low = 1;
     int high = n-2;
+    if(n==1){return arr[0];}
     if(arr[0]!=arr[low]){
         return arr[0];
     }
